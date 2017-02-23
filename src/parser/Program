@@ -1,3 +1,8 @@
+
+def func(n){
+ return n+5;
+}
+
 def fact(n){
     sum=0
     i=1
@@ -5,9 +10,7 @@ def fact(n){
         sum=sum+i;
         i=i+1;
     }
-    sum
-    return sum+9;
-    sum+5;
+    return func(n);
 }
 print fact(1);
 
